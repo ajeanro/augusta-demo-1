@@ -1,5 +1,35 @@
+.main {
+    margin-top: 10px;
+    margin-left: 30px;
+    border: solid;
+    border-width: 10px;
+    border-color: seagreen;
+}
 .nature {
     background-image: url("../images/mountains.jpg");
     background-size: auto;
-    
 }
+#natural {
+    text-align: center;
+    font-size: 2em;
+    -webkit-text-fill-color: darkslategrey;
+}
+main section {
+    display: flex;
+    background-color: rgb(234, 255, 155);
+}
+article {
+    width: 50%;
+    padding: 0 1rem;
+    border: solid; 
+    border-color: darkseagreen;
+}
+article img {
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
