@@ -1,13 +1,29 @@
-.main {
+body {
     margin-top: 10px;
     margin-left: 30px;
     border: solid;
     border-width: 10px;
-    border-color: seagreen;
+    border-color: #93d6b1
 }
-.nature {
+.wild {
+    padding: 0 2em;
+    font-size: 25px;
+    font-weight: bold;
+}
+header {
     background-image: url("../images/mountains.jpg");
     background-size: auto;
+    margin: 1em;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+header nav ul li {
+    margin-right: 1rem;
+}
+header nav ul li a:hover{
+    color: red;
 }
 #natural {
     text-align: center;
@@ -17,12 +33,16 @@
 main section {
     display: flex;
     background-color: rgb(234, 255, 155);
+    border-color: seagreen;
+}
+#leopard {
+    margin-left: 7em;
 }
 article {
     width: 50%;
     padding: 0 1rem;
-    border: solid; 
-    border-color: darkseagreen;
+    
+    
 }
 article img {
     max-width: 100%;
